@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/libros/categoria/fantasia
+method: GET
+order: 4405908548389447

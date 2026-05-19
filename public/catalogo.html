@@ -1,87 +1,137 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Biblioteca IP Santo Tomás - Catálogo</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Catálogo Biblioteca</title>
+
 </head>
+
 <body>
 
-  <header>
-    <h1>Biblioteca IP Santo Tomás</h1>
-    <p class="slogan">Conocimiento al alcance de todos</p>
+    <main>
 
-    <nav>
-      <a href="/catalogo">Catálogo</a>
-      <a href="/prestamos">Préstamos</a>
-      <a href="/reservas">Reservas</a>
-      <a href="/contacto">Contacto</a>
-    </nav>
-  </header>
+        <section id="catalogo">
 
-  <main>
+            <h1>Catálogo Biblioteca</h1>
 
-    <section id="catalogo">
+            <!-- LIBRO 1 -->
 
-      <h2>Catálogo de Libros</h2>
+            <div class="libro"
+                data-id="1"
+                data-categoria="fantasia">
 
-      <div class="libro" data-id="1" data-categoria="programacion">
+                <h3 class="titulo">
+                    El Laberinto del Fauno
+                </h3>
 
-        <h3 class="titulo">Introducción a los Algoritmos</h3>
+                <p class="autor">
+                    Guillermo del Toro
+                </p>
 
-        <p class="autor">Thomas H. Cormen</p>
+                <p class="isbn">
+                    ISBN: 978-607-07-4100-6
+                </p>
 
-        <p class="isbn">ISBN: 978-0-262-03384-8</p>
+                <p class="anio">
+                    Año: 2006
+                </p>
 
-        <p class="anio">Año: 2022</p>
+                <p class="editorial">
+                    Editorial: Alfaguara
+                </p>
 
-        <p class="editorial">Editorial: MIT Press</p>
+                <span class="estado disponible">
+                    Disponible
+                </span>
 
-        <span class="estado disponible">Disponible</span>
+                <p class="ubicacion">
+                    Estante F-01
+                </p>
 
-        <p class="ubicacion">Estante A-12</p>
+            </div>
 
-      </div>
+            <!-- LIBRO 2 -->
 
-      <div class="libro" data-id="2" data-categoria="programacion">
+            <div class="libro"
+                data-id="2"
+                data-categoria="suspenso">
 
-        <h3 class="titulo">Clean Code</h3>
+                <h3 class="titulo">
+                    El Perfume
+                </h3>
 
-        <p class="autor">Robert C. Martin</p>
+                <p class="autor">
+                    Patrick Süskind
+                </p>
 
-        <p class="isbn">ISBN: 978-0-13-235088-4</p>
+                <p class="isbn">
+                    ISBN: 978-8432211988
+                </p>
 
-        <p class="anio">Año: 2008</p>
+                <p class="anio">
+                    Año: 1985
+                </p>
 
-        <p class="editorial">Editorial: Prentice Hall</p>
+                <p class="editorial">
+                    Editorial: Seix Barral
+                </p>
 
-        <span class="estado prestado">Prestado</span>
+                <span class="estado prestado">
+                    Prestado
+                </span>
 
-        <p class="ubicacion">Estante A-15</p>
+                <p class="ubicacion">
+                    Estante S-02
+                </p>
 
-      </div>
+            </div>
 
-      <div class="libro" data-id="3" data-categoria="base-de-datos">
+            <!-- LIBRO 3 -->
 
-        <h3 class="titulo">Fundamentos de Bases de Datos</h3>
+            <div class="libro"
+                data-id="3"
+                data-categoria="filosofia">
 
-        <p class="autor">Abraham Silberschatz</p>
+                <h3 class="titulo">
+                    El Alquimista
+                </h3>
 
-        <p class="isbn">ISBN: 978-0-07-352332-3</p>
+                <p class="autor">
+                    Paulo Coelho
+                </p>
 
-        <p class="anio">Año: 2019</p>
+                <p class="isbn">
+                    ISBN: 978-0061122414
+                </p>
 
-        <p class="editorial">Editorial: McGraw-Hill</p>
+                <p class="anio">
+                    Año: 1988
+                </p>
 
-        <span class="estado disponible">Disponible</span>
+                <p class="editorial">
+                    Editorial: HarperOne
+                </p>
 
-        <p class="ubicacion">Estante B-03</p>
+                <span class="estado disponible">
+                    Disponible
+                </span>
 
-      </div>
+                <p class="ubicacion">
+                    Estante F-03
+                </p>
 
-    </section>
+            </div>
 
-  </main>
+        </section>
+
+    </main>
 
 </body>
+
 </html>

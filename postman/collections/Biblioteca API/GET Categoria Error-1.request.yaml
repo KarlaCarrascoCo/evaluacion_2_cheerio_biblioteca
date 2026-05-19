@@ -1,0 +1,5 @@
+$kind: http-request
+name: GET Categoria Error
+url: http://localhost:3000/api/libros/categoria/error
+method: GET
+order: 4499110898784415
